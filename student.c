@@ -44,10 +44,32 @@ void insert(struct Student s[10],int * ptr){
     printf("At which position do you want to insert");
     scanf("%d",&pos);
 
+    for (int i = pos; i < ; i++)
+    {
+        /* code */
+    }
     
 
 
 }
+
+void delete(struct Student s[10],int record){
+
+int pos;
+printf("\n enter record  which is to be deleted : ");
+scanf("%d",&pos);
+for(int i=pos;i<record;i++)
+{
+    s[i-1]=s[i];
+}
+record = record - 1;
+
+for (int n = 0; n < record; n++)
+    { 
+        display(s[n]);
+    }
+}
+
 
 void main(){
 	struct Student s[10];
@@ -67,5 +89,6 @@ void main(){
 
     search(s);
     modify(s);
-    insert(s,&record);
+    insert(s,record);
+    delete(s,record);
 }
