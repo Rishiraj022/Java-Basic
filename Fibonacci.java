@@ -1,3 +1,5 @@
+//Name - Rishiraj Potdukhe SEA51
+
 import java.util.*;		//Fibonacci 
 
 public class primeNumber {
