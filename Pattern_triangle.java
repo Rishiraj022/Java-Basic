@@ -1,3 +1,5 @@
+//Name - Rishiraj Potdukhe SEA51
+
 import java.util.*;
 
 public class Pattern_triangle {
